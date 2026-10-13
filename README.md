@@ -20,6 +20,8 @@ directly.
 
 - `workflow/prd-generator/`: product research, competitive analysis, and PRD
   generation.
+- `workflow/market-demand-validation/`: evidence-based customer discovery,
+  demand scoring, behavior experiments, paid validation, and go/no-go decisions.
 
 ## Sync To Local Agent Directories
 
@@ -37,6 +39,7 @@ local agents:
 | `core/entrepreneurship-operating-system` | `~/Github/DanmoTrade/.agents/skills/entrepreneurship-operating-system` |
 | `core/lean-solo-startup` | `~/.claude/skills/lean-solo-startup` |
 | `workflow/prd-generator` | `~/.agents/skills/prd-generator` and `~/.claude/skills/prd-generator` |
+| `workflow/market-demand-validation` | `~/.agents/skills/market-demand-validation` and `~/.claude/skills/market-demand-validation` |
 
 `sync.sh` uses `rsync --delete`, so run it only when the repository is the
 intended source of truth. It intentionally leaves the original directories in
